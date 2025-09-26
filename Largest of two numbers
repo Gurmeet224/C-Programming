@@ -3,6 +3,6 @@ int main(){
     int x,y;
     printf("Enter two no: ");
     scanf("%d %d",&x,&y);
-    (x<y) ? printf("y is largest ") : printf("x is largest ");
+    (x<y) ? printf("y = %d is largest  than x = %d",y,x) : printf("x =%d is largest than y = %d",x,y);
     return 0;
 }
