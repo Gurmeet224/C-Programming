@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float p,r,ci;
+    int t;
+    scanf("%f %f %d",&p,&r,&t);
+    ci = p *(pow((1+r/100),t)-1) ;
+    printf("%.2f",ci);
+    
+  
+    return 0;
+}
