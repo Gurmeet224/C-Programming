@@ -9,9 +9,9 @@ int main() {
     scanf("%d %d %d",&x,&y,&z);
     if(y>=x && y>=z)
         printf("%d",y);
-    else if(x>=y && x>=z)
+    else if(x>=z)
         printf("%d",x);
-    else if(z>=x && z>=y)
+    else 
         printf("%d",z);   
     return 0;
 }
