@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i,limit,num,largest;
+    scanf("%d",&limit);
+    scanf("%d",&num);
+    largest = num;
+    for(i=1;i<=limit;i++){
+        scanf("%d",&num);
+        if(num>largest)
+            largest = num;
+    }
+    printf("%d",largest);
+    return 0;
+}
