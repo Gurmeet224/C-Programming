@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int num,digit=0;
+    scanf("%d",&num);
+    if(num == 0){
+        digit+=1;
+        printf("%d",digit);
+    }
+    else{
+        if(num<0){
+        num = -num;}
+        while(num>0){
+          num = num/10;
+          digit+=1;
+    }
+        printf("%d",digit);
+    }
+    
+    return 0;
+}
